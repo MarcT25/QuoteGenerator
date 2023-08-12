@@ -1,0 +1,63 @@
+body{
+    font-family: Lugrasimo, Arial, Helvetica, sans-serif;
+    background-color: #4AB018;
+}
+
+.wrapper{
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+}
+
+#quote-box{
+    background-color: gray;
+    border-radius: 25px;
+    padding: 40px;
+}
+
+#buttons{
+    display: inline-block;
+    margin: 5px;
+    padding-right: 10px;
+}
+
+#new-quote{
+    border-radius: 10px;
+    transition-duration: .4s;
+    border: 2px solid black;
+    font-size: 15px;
+}
+
+#new-quote:hover{
+    background-color:grey;
+    color:white;
+}
+
+#tweet-quote{
+    border-radius: 10px;
+    transition-duration: .4s;
+}
+
+#tweet-quote:link{
+    text-decoration: none;
+}
+
+#tweet-quote:hover{
+    background-color:grey;
+    color:white;
+    text-decoration: underline;
+}
+
+#tweet-quote:visited{
+    text-decoration: none;
+}
+
+#tweet-quote:active{
+    background-color:grey;
+    color:white;
+    text-decoration: underline;
+}

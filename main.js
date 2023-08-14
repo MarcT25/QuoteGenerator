@@ -94,7 +94,18 @@ function getRandomQuote() {
     var randomQuote = quotes[Math.floor(Math.random() * (quotes.length))];
     document.getElementById("text").innerHTML = randomQuote.quote;
     document.getElementById("author").innerHTML = randomQuote.author;
+    tweetQuote(randomQuote.quote, randomQuote.author);
 };
+
+function tweetQuote(quote, author){
+    document.getElementById('tweet-quote').setAttribute(
+        'href',
+        'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
+          encodeURIComponent('"' + quote + '" ' + author)
+      );
+}
+
+
 
 //for when the page it's loaded this events will take place.
 window.onload = function() {

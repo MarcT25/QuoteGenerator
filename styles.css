@@ -1,6 +1,7 @@
 body{
     font-family: Lugrasimo, Arial, Helvetica, sans-serif;
-    background-color: #4AB018;
+    background-color: #AB1EF4;
+    
 }
 
 .wrapper{
@@ -14,6 +15,7 @@ body{
 }
 
 #quote-box{
+    color:white;
     background-color: gray;
     border-radius: 25px;
     padding: 40px;
